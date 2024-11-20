@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recipe app</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Tasty Tracks</h1>
+            <form>
+                <input type="text" placeholder="Search for a recipe..."
+                class="searchBox">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="cuisine-categories">
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://th.bing.com/th/id/OIP.A6IsvjAenj85f5Dv1qv7NQHaE2?rs=1&pid=ImgDetMain" alt="Sushi">
+                    </div>
+                    <h3>Sushi</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://th.bing.com/th/id/OIP.sDbqbE8v2HGsoxSSIiA4RQAAAA?rs=1&pid=ImgDetMain" alt="Pasta">
+                    </div>
+                    <h3>Pasta</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://theawesomedaily.com/wp-content/uploads/2016/09/pictures-of-pizza-23-1.jpg" alt="Pizza">
+                    </div>
+                    <h3>Pizza</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://th.bing.com/th/id/OIP.g_EYshV4TBrKFonMmN2KEgHaE7?rs=1&pid=ImgDetMain" alt="Burger">
+                    </div>
+                    <h3>Burger</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/03/Best-Kadai-Paneer-Recipe.jpg" alt="Pasta">
+                    </div>
+                    <h3>Kadai Paneer</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://www.mashed.com/img/gallery/12-best-ramen-flavors-ranked/l-intro-1653291220.jpg" alt="Ramen">
+                    </div>
+                    <h3>Ramen</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://th.bing.com/th/id/OIP.Fw-199hoU0qcuFHEL9Vf8wHaLH?rs=1&pid=ImgDetMain" alt="Cake">
+                    </div>
+                    <h3>Cake</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://www.foodiesfeed.com/wp-content/uploads/2018/08/chinese-steamed-and-fried-dim-sum-in-wooden-steamers.jpg" alt="Dim Sum">
+                    </div>
+                    <h3>Dim Sum</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="https://th.bing.com/th/id/OIP.NhPJ1wifUsgM_YKC5ypLhAAAAA?rs=1&pid=ImgDetMain" alt="Tacos">
+                    </div>
+                    <h3>Tacos</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section>
+            <div class="recipe-container">
+                <h2>Search for fav recipe</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">
+                    <i class="fa-solid fa-skull-crossbones"></i>
+                </button>
+            
+            <div class="recipe-details-content"></div>
+
+            </div>
+        </section> -->
+
+        <section>
+            <div class="intro-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <a href="https://www.oliviascuisine.com/authentic-brazilian-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://png.pngtree.com/png-clipart/20220509/original/pngtree-brazilian-cuisine-vector-black-bean-stew-feijoada-poster-png-image_7686275.png" alt="Cuisine">
+                            <h3>Brazilian Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.tasteofhome.com/collection/chinese-food-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://static.vecteezy.com/system/resources/previews/011/633/901/large_2x/chinese-cuisine-menu-with-asian-meals-and-dishes-vector.jpg" alt="Indian Cuisine">
+                            <h3>Chinese Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://insanelygoodrecipes.com/french-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://img.freepik.com/premium-vector/french-cuisine-restaurant-menu-cover-template_8071-52830.jpg?w=2000" alt="Mexican Cuisine">
+                            <h3>French Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.bonappetit.com/recipes/slideshow/classic-italian-recipes" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://static.vecteezy.com/system/resources/previews/011/860/899/original/italian-cuisine-restaurant-meals-menu-template-vector.jpg" alt="Japanese Cuisine">
+                            <h3>Italian Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.indianhealthyrecipes.com/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://static.vecteezy.com/system/resources/previews/023/510/479/original/indian-cuisine-restaurant-menu-cover-spice-food-vector.jpg" alt="Mediterranean Cuisine">
+                            <h3>Indian Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.justonecookbook.com/easy-pantry-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://th.bing.com/th/id/OIP.I6ZEJT17sFcE2xblE2PtDgHaHa?w=980&h=980&rs=1&pid=ImgDetMain" alt="Mediterranean Cuisine">
+                            <h3>Japnese Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.beyondkimchee.com/best-korean-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://th.bing.com/th/id/OIP.r_yiNGYiAduJcC7BOuSiPAHaH_?rs=1&pid=ImgDetMain" alt="Mediterranean Cuisine">
+                            <h3>Korean Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.tasteofhome.com/collection/favorite-mediterranean-recipes/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://th.bing.com/th/id/OIP.GDOQkDOCshDLJ_FLlIyrGQHaE7?pid=ImgDet&w=191&h=127&c=7" alt="Mediterranean Cuisine">
+                            <h3>Mediterranean Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.tasteofhome.com/collection/mexican-foods-take/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://static.vecteezy.com/system/resources/previews/023/840/175/large_2x/mexican-cuisine-cartoon-poster-mexico-meals-vector.jpg" alt="Mediterranean Cuisine">
+                            <h3>Mexican Cuisine</h3>
+                        </div>
+                    </a>
+                    <a href="https://hot-thai-kitchen.com/thai-recipes-for-beginners/" target="_blank">
+                        <div class="cuisine-card">
+                            <img src="https://img.freepik.com/premium-vector/thai-cuisine-restaurant-menu-cover-page-template_8071-50427.jpg?w=2000" alt="Mediterranean Cuisine">
+                            <h3>Thai Cuisine</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <button class="carousel-btn prev">❮</button>
+                    <button class="carousel-btn next">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="recipe-container">
+
+        </div>
+
+        <div class="recipe-details">
+            <div class="recipe-details-content">
+                
+            </div>
+            <button type="button" class="recipe-close-btn">×</button>
+        </div>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Discover delicious recipes from around the world. Your one-stop app for cooking inspiration!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: riya060btit23@igdtuw.ac.in</li>
+                    <li>Phone: +91 982736...</li>
+                    <li>Address: 123 Recipe Street, Food City</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Recipe App. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
